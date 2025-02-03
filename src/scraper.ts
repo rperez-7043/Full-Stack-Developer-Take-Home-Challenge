@@ -40,5 +40,4 @@ const rule = new schedule.RecurrenceRule();
 // rule.second = 0;
 schedule.scheduleJob(rule, () => {
     fetchExchangeRate(URL);
-    console.log("Job");
 });

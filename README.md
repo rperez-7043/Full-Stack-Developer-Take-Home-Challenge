@@ -46,10 +46,10 @@ SELECT * FROM _nombre_de_tabla ORDER BY date DESC;
 Crear un archivo **.env** en la raíz del proyecto con el siguiente contenido:
 
 ```env
-DB_NAME=_nombre_de_base_de_datos_
-DB_TABLE=_nombre_de_tabla_
-DB_USER=_usuario_de_base_de_datos_
-DB_PASSWORD=_contraseña_de_usuario_
+DB_NAME=_nombre_de_base_de_datos
+DB_TABLE=_nombre_de_tabla
+DB_USER=_usuario_de_base_de_datos
+DB_PASSWORD=_contraseña_de_usuario
 ```
 
 ### Configurar la Ejecución del Scraper
